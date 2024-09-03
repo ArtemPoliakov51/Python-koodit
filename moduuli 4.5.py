@@ -1,6 +1,6 @@
 eka = input("syötä käyttäjätunnus: ")
 toka = input("syötä salasana: ")
-kolmas = eka != "python" and toka != "rules"
+kolmas = 0
 while kolmas<5:
     if eka == "python" and toka == "rules":
         print("tervetuloa")
